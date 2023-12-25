@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-cboxkt
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-dqia-tenant/jvm-build-suite-application-mynl/jvm-build-suite-component-cboxkt@sha256:9766ff9759dd5dbbffe62bbf7e3937da9a4b70800a1a2135f3173c57f4f696ce
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
